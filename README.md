@@ -42,7 +42,7 @@
 
 ## 📁 Folder Structure
 
-\`\`\`
+
 MyTasksApp/
 ├── src/
 │   ├── components/       # Reusable components like TaskItem
@@ -53,32 +53,33 @@ MyTasksApp/
 ├── App.tsx              # Entry point
 ├── tsconfig.json        # TypeScript config
 └── README.md
-\`\`\`
+
 
 ---
 
 ## 📱 How to Run the App
 
 1. **Install Expo CLI**  
-   \`\`\`
+   
    npm install -g expo-cli
-   \`\`\`
+   
 
 2. **Clone this repository**
-   \`\`\`
+   
    https://github.com/sebastianvarghesepm/task-manager.git
+   
    cd task-manager
-   \`\`\`
+   
 
 3. **Install dependencies**
-   \`\`\`
+   
    npm install
-   \`\`\`
+   
 
 4. **Start the app**
-   \`\`\`
+   
    npx expo start
-   \`\`\`
+   
 
 5. **Scan the QR code** in Expo Go app (Android/iOS) and test the app.
 
