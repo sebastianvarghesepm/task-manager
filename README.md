@@ -44,14 +44,23 @@
 
 
 MyTasksApp/
+
 ├── src/
+
 │   ├── components/       # Reusable components like TaskItem
+
 │   ├── screens/          # Screens (HomeScreen)
+
 │   ├── storage/          # AsyncStorage logic
+
 │   ├── types/            # Global TypeScript interfaces
+
 │   └── utils/            # Notification utilities
+
 ├── App.tsx              # Entry point
+
 ├── tsconfig.json        # TypeScript config
+
 └── README.md
 
 
@@ -67,7 +76,7 @@ MyTasksApp/
 2. **Clone this repository**
    
    https://github.com/sebastianvarghesepm/task-manager.git
-   
+
    cd task-manager
    
 
@@ -111,9 +120,9 @@ MyTasksApp/
 
 _You can include screenshots here if needed using markdown:_
 
-\`\`\`
-![Home Screen](./assets/home.png)
-\`\`\`
+
+![Home Screen](./assets/images/react-logo.png)
+
 
 ---
 
