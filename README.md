@@ -1,50 +1,127 @@
-# Welcome to your Expo app 👋
+# 📱 Task Manager App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+**Author:** Sebastian Varghese  
+**Tech Stack:** React Native (Expo), TypeScript, AsyncStorage, Expo Notifications
 
-## Get started
+---
 
-1. Install dependencies
+## 📌 Project Overview
 
-   ```bash
+**Task Manager** is a clean, minimal productivity app that allows users to add, complete, delete, and receive reminders for their tasks. The project demonstrates advanced React Native architecture, clean component abstraction, asynchronous storage, and scheduled local notifications using Expo.
+
+> ⚡ This project was developed as a part of a React Native Developer Interview Assignment.
+
+---
+
+## 🚀 Features
+
+- ✅ Add new tasks with priority (default: medium)
+- ✅ Mark tasks as complete/incomplete
+- ✅ Delete tasks with one tap
+- ✅ Auto-scheduled local notifications for each task
+- ✅ Cancel pending notifications upon completion
+- ✅ Tasks persist using AsyncStorage
+- ✅ Clean and responsive UI
+- ✅ Typed using TypeScript
+- 🧠 Modular and scalable codebase for enterprise use
+
+---
+
+## 🛠️ Tech & Libraries
+
+| Feature              | Stack / Library                    |
+|----------------------|------------------------------------|
+| Framework            | React Native with Expo             |
+| Language             | TypeScript                         |
+| Storage              | @react-native-async-storage        |
+| Notifications        | expo-notifications                 |
+| UI Components        | NativeBase / Custom Styles (manual)|
+| Icons                | @expo/vector-icons (AntDesign, MaterialIcons) |
+
+---
+
+## 📁 Folder Structure
+
+\`\`\`
+MyTasksApp/
+├── src/
+│   ├── components/       # Reusable components like TaskItem
+│   ├── screens/          # Screens (HomeScreen)
+│   ├── storage/          # AsyncStorage logic
+│   ├── types/            # Global TypeScript interfaces
+│   └── utils/            # Notification utilities
+├── App.tsx              # Entry point
+├── tsconfig.json        # TypeScript config
+└── README.md
+\`\`\`
+
+---
+
+## 📱 How to Run the App
+
+1. **Install Expo CLI**  
+   \`\`\`
+   npm install -g expo-cli
+   \`\`\`
+
+2. **Clone this repository**
+   \`\`\`
+   https://github.com/sebastianvarghesepm/task-manager.git
+   cd task-manager
+   \`\`\`
+
+3. **Install dependencies**
+   \`\`\`
    npm install
-   ```
+   \`\`\`
 
-2. Start the app
-
-   ```bash
+4. **Start the app**
+   \`\`\`
    npx expo start
-   ```
+   \`\`\`
 
-In the output, you'll find options to open the app in a
+5. **Scan the QR code** in Expo Go app (Android/iOS) and test the app.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🧠 Developer Notes
 
-## Get a fresh project
+### 🔍 Design Considerations
+- **Separation of concerns**: Business logic, UI, and utilities are well isolated.
+- **Scalability**: Easily extendable to support task editing, tagging, filtering, etc.
+- **Notifications**: Proper lifecycle handling using \`expo-notifications\`.
 
-When you're ready, run:
+### 🧪 Challenges & Solutions
+- ⏰ Cancelling scheduled notifications on task completion required careful state mapping and ID tracking.
+- 💾 Persistent task data was implemented using AsyncStorage with automatic syncing.
 
-```bash
-npm run reset-project
-```
+---
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+## 📌 Bonus Features
 
-## Learn more
+- 🧠 Cancel local notifications when a task is marked complete
+- 💾 AsyncStorage for persistent storage
+- ✅ Typed task model with priority support
+- ✏️ Project structure that supports future enhancements like Firebase, Realm, Redux, etc.
 
-To learn more about developing your project with Expo, look at the following resources:
+---
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+## 📸 Screenshots
 
-## Join the community
+_You can include screenshots here if needed using markdown:_
 
-Join our community of developers creating universal apps.
+\`\`\`
+![Home Screen](./assets/home.png)
+\`\`\`
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+---
+
+## 📬 Contact
+
+If you have any questions or would like to collaborate, feel free to connect with me.
+
+**Sebastian Varghese**  
+📧 Email: [sebastianvarghesepm@gmail.com]  
+🌐 LinkedIn: [https://www.linkedin.com/in/sebastian-varghese-268a78178/](https://www.linkedin.com/in/sebastian-varghese-268a78178/)
+
+---
